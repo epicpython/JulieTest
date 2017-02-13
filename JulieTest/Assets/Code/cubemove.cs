@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class cubemove : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	public GameObject cube;
 	
 	// Update is called once per frame
 	void Update () {
 		
+		cube.transform.position = cube.transform.position + new Vector3 (0, 2, 0);
+		//drag to reference itself
 	}
 }
