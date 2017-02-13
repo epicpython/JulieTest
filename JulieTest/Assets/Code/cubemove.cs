@@ -10,6 +10,7 @@ public class cubemove : MonoBehaviour {
 	void Update () {
 
 		cube.transform.position = cube.transform.position + new Vector3 (2, 0, 0);
+		cube.transform.position = cube.transform.position + new Vector3 (0, 2, 0);
 		//drag to reference itself
 	}
 }
